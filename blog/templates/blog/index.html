@@ -1,12 +1,128 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas neque tenetur unde tempore quasi voluptatibus sunt, molestias saepe. Harum pariatur perferendis ex doloribus omnis accusantium perspiciatis, asperiores molestiae laboriosam consectetur earum eveniet fugit, temporibus, quod impedit maxime sint ratione deleniti totam alias dolorem maiores animi reprehenderit quidem. Veritatis, odio totam sit assumenda accusantium ut. Unde laudantium quibusdam ducimus dolorum natus impedit ipsa fugiat harum sapiente amet minus maiores, modi consequatur quia quam. Exercitationem, expedita blanditiis nemo facilis accusantium cumque, qui nihil ea, perspiciatis consequatur necessitatibus neque? Impedit velit consequuntur officiis, ex repellendus incidunt illum iure ipsam ut laboriosam debitis voluptate provident soluta? Atque eos deserunt asperiores ullam rem minus at quisquam sapiente sit optio itaque sunt ratione, quae beatae labore velit fugiat saepe dolor eius tempora aliquam consectetur necessitatibus sequi? Obcaecati culpa sed fugiat excepturi amet tenetur. Exercitationem, error? Sed maiores in adipisci quidem aut distinctio, temporibus perferendis exercitationem reprehenderit tenetur. Eaque voluptatum aspernatur nam molestiae consequuntur? Facilis beatae nam, vero voluptas fuga praesentium laboriosam iure ullam iste deleniti adipisci tempora molestiae cum magnam eum ipsum, provident magni. Illum, minima officiis nesciunt at molestias sit aut harum eum repellendus provident? Tenetur fuga saepe iusto, neque non sint consectetur deserunt incidunt harum ipsum debitis aliquam odio atque velit assumenda, cumque aut repellendus aperiam minima tempora! Porro rerum saepe, quis provident ducimus cum veniam sed error perferendis voluptatum labore modi ut iusto at reprehenderit quo repellat. Beatae minus excepturi quo repellat ex debitis voluptatum quia possimus aliquam fugiat, voluptates at quasi mollitia accusamus vero deleniti unde tempore, ipsa earum, ducimus maxime iure dolorem id? Quasi eaque saepe aperiam error recusandae accusantium eos, ipsum delectus fugiat perferendis, aliquid, obcaecati eum dolorum similique quo adipisci? Tempora, incidunt obcaecati eos culpa ab illo ipsa vero, itaque quis reiciendis fuga blanditiis dicta illum perferendis veniam rerum.
-</body>
-</html>
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<section class="bg-text-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="bg-text">
+                    <h3>Classic BLOG Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="blog-post-area">
+    <div class="container">
+        <div class="row">
+            <div class="blog-post-area-style">
+                    <div class="col-md-12">
+                        <div class="single-post-big">
+                            <div class="big-image">
+                                <img src={% static 'img/post-image1.jpg' %} alt="">
+                            </div>
+                            <div class="big-text">
+                                <h3><a href="#">Post Title Goes Here.</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                <h4><span class="date">25 February 2017</span><span class="author">Posted By: <span class="author-name">Kabbo Liate</span></span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-post">
+                            <img src={% static 'img/post-image2.jpg' %} alt="">
+                            <h3><a href="#">Post Title Goes Here.</a></h3>
+                            <h4><span>Posted By: <span class="author-name">Kabbo Liate</span></span>
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            <h4><span>25 February 2017</span></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-post">
+                            <img src="img/post-image3.jpg" alt="">
+                            <h3><a href="#">Post Title Goes Here.</a></h3>
+                            <h4><span>Posted By: <span class="author-name">Kabbo Liate</span></span>
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            <h4><span>25 February 2017</span></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-post">
+                            <img src="img/post-image4.jpg" alt="">
+                            <h3><a href="#">Post Title Goes Here.</a></h3>
+                            <h4><span>Posted By: <span class="author-name">Kabbo Liate</span></span>
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            <h4><span>25 February 2017</span></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-post">
+                            <img src="img/post-image5.jpg" alt="">
+                            <h3><a href="#">Post Title Goes Here.</a></h3>
+                            <h4><span>Posted By: <span class="author-name">Kabbo Liate</span></span>
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            <h4><span>25 February 2017</span></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-post">
+                            <img src="img/post-image6.jpg" alt="">
+                            <h3><a href="#">Post Title Goes Here.</a></h3>
+                            <h4><span>Posted By: <span class="author-name">Kabbo Liate</span></span>
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            <h4><span>25 February 2017</span></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-post">
+                            <img src="img/post-image7.jpg" alt="">
+                            <h3><a href="#">Post Title Goes Here.</a></h3>
+                            <h4><span>Posted By: <span class="author-name">Kabbo Liate</span></span>
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            <h4><span>25 February 2017</span></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-post">
+                            <img src="img/post-image8.jpg" alt="">
+                            <h3><a href="#">Post Title Goes Here.</a></h3>
+                            <h4><span>Posted By: <span class="author-name">Kabbo Liate</span></span>
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            <h4><span>25 February 2017</span></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="single-post">
+                            <img src="img/post-image9.jpg" alt="">
+                            <h3><a href="#">Post Title Goes Here.</a></h3>
+                            <h4><span>Posted By: <span class="author-name">Kabbo Liate</span></span>
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dotempor incididunt ut. labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            <h4><span>25 February 2017</span></h4>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="pegination">
+        <div class="nav-links">
+            <span class="page-numbers current">1</span>
+            <a class="page-numbers" href="#">2</a>
+            <a class="page-numbers" href="#">3</a>
+            <a class="page-numbers" href="#">4</a>
+            <a class="page-numbers" href="#">5</a>
+            <a class="page-numbers" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</section>
+{% endblock content %}
